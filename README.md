@@ -1,7 +1,8 @@
 # FocusFrame
 
 ## Description
-Reformate 16:9 live video to 9:16 aspect reation by cropping most focued object. 
+Reformate 16:9 live video to 9:16 aspect reation by cropping most focued object.See demo below.
+
 
 ## How to run this project in windows device 
 
@@ -31,3 +32,16 @@ here i created a point system in whcih default value is 102 for person 101 for l
 if any objects moves most in video add +3% to that object's score.   
 if any ojects is fixed to one place then -3% to score.   
 and more rules in approach 2 file   
+
+## Preview
+
+### demo 1
+https://github.com/user-attachments/assets/931af9fc-d98c-4510-aadf-310b53a6bc32
+
+
+### demo 2
+https://github.com/user-attachments/assets/b2fa038a-fce9-4755-8bcb-a7544ca97d52
+
+
+
+
