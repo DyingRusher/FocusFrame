@@ -11,7 +11,6 @@ from ultralytics import YOLO
 import pandas as pd
 import math
 
-
 model = YOLO("yolo11x.pt")
 
 
