@@ -1,0 +1,16 @@
+First set input and output path at line 140 and 141
+You can adjust how many frame u need to crop default is 1000(41 sec)
+
+for simplicity i converted video to (720,540)
+
+save detection of YOLO in variables
+
+if no detection found crop most middle part of video
+
+after detecting boxes of whole video sort objects of each frame in prority and prority goes like:
+1.if there is person in frame focus on them
+2.if two or more person then choose which has bigger area
+3.if no person then choose biggest object in frame
+
+and at last rolling average and backfill in mid values to give smooth cropping.
+save both video original and cropped video in single frame.

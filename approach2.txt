@@ -1,0 +1,22 @@
+Set input and output path(18),31
+then set number of frames to be proccessed(38)
+
+Here we are tracking objects not detecting objects
+initialize cap and other variable(34-39)
+first save tracking infromation in variables(52-63)
+
+to choose most focus object we are using point based system and rules goes like:
+1. default value of person is 102 , living object is 101 like cat,dogs and other has 100.(70-75)
+2. for most moving objects add +3% of its point to it.(107-109)
+    to implement above first calculate distance from last 4 frame (84-99) why last 4 frame because tracking is done from last 4 frames
+
+remaining 3. for other moving objects give +2% to second most moved object and 1% to third
+remaining 4. object which are fixed in one place decrease it point to -3% per frame
+
+after updating scores per frame choose object with most point which is present in that frame(104)
+take mid point of x coor of focused object as mid point of cropping frame(111-118)
+
+for not detecting a single object in frame take mid value of video as mid value of cropping frame(118)
+after saving mid values in list apply rolling and backfill for smoothing of values.(120-122)
+
+and then it is all set crop and append it to frame then save it.
