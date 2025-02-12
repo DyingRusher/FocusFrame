@@ -36,7 +36,7 @@ and more rules in approach 2 file
 ## Preview
 
 ### demo 1
-https://github.com/user-attachments/assets/931af9fc-d98c-4510-aadf-310b53a6bc32
+https://github.com/user-attachments/assets/f63d3e77-9e61-42fa-b461-878a3ff59d44
 
 
 ### demo 2
