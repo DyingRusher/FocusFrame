@@ -1,7 +1,7 @@
 # FocusFrame
 
 ## Description
-Reformate 16:9 live video to 9:16 aspect reation by cropping most focued object.See demo below.
+Reformate 16:9 live video to 9:16 aspect ratio by cropping most focued object.See demo below.
 
 
 ## How to run this project in windows device 
